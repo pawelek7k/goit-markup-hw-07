@@ -353,12 +353,14 @@
             </div>
             <div class="subscribe-footer">
                 <p class="heading-icons">Subscribe</p>
+                <form class="form-footer">
+                    <label class="label-footer">
                 <input type="email" name="email" class="input-footer" placeholder="E-mail">
                 <button type="submit" class="btn-submit-footer">Subscribe
                     <svg class="frame">
                         <use href="./images/icons.svg#icon-Frame-3-1"></use>
                     </svg>
-                </button>
+                </button></label></form>
             </div>
         </div>
     </footer>
@@ -371,27 +373,34 @@
             </button>
             <p class="p-modal">Leave your contacts and we will call you back</p>
             <form class="order-service">
-                <label class="label">Name
-                    <svg>
+                <div class="div-form">
+                <label class="label" for="user-name">Name <div class="nameform-div">
+                    <input type="text" name="text" id="user-name" class="input">
+                    <svg width="18" height="24" class="svg-input">
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                    </svg>
-                    <input type="text" name="text" class="input">
+                    </svg></div>
                 </label>
-                <label class="label">Phone
-                    <input type="password" name="password" class="input">
+                <label class="label" for="phone-number">Phone<div class="div-form">
+                    <input type="text" name="text" class="input" id="phone-number">
+                    <svg width="18" height="24" class="svg-input">
+                        <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+                    </svg></div>
                 </label>
-                <label class="label">Email
-                    <input type="email" name="email" class="input">
+                <label class="label" for="email-name">Email<div class="div-form">
+                    <input type="email" name="email" class="input" id="email-name"> 
+                    <svg width="18" height="24" class="svg-input">
+                        <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+                    </svg></div>
                 </label>
-                <label class="label">
+                <label class="label" for="user-comment">
                     Comment
-                    <textarea name="Comment" placeholder="Text input" class="textarea-modal"></textarea>
+                    <textarea name="Comment" placeholder="Text input" class="textarea-modal" id="user-comment"></textarea>
                 </label>
                 <label class="accept">
                 <input type="radio" name="accept" class="inputradio">
                 <p>I accept the terms and conditions of the Privacy Policy</p>
                 </label>
-                <button type="submit" class="submit-button">Send</button>
+                <button type="submit" class="submit-button">Send</button></div>
             </form>
         </div>
     </div>
