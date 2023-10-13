@@ -414,6 +414,66 @@ a {
     max-width: 264px;
 }
 
+.subscribe-footer {
+    gap: 24px;
+}
+
+.input-footer {
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding: 16px;
+}   
+
+.input-footer::placeholder {
+    color: var(--white);
+}
+
+::placeholder {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+
+.btn-submit-footer {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-submit-footer:hover,
+.btn-submit-footer:focus {
+    background-color: var(--marka-color);
+}
+
+.frame {
+    width: 24px;
+    height: 24px;
+}
+
 /* main-portfolio */
 
 .link-portfolio {
@@ -736,6 +796,53 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.p-modal {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-top: 72px;
+}
+
+.label {
+    color: var(--border-customers);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+
+.input {
+    width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    justify-content: center;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 24px;
+}
+
+.label:focus-within {
+    color: #4D5AE5;
+}
+
+.textarea-modal {
+    width: 360px;
+    height: 120px;
+    flex-shrink: 0;
+    padding: 8px;
+}
+
 .close-button-one {
     position: absolute;
     width: 24px;
@@ -750,7 +857,6 @@ a {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .close-button-one:hover {
@@ -803,6 +909,30 @@ a {
     height: 16px;
     flex-shrink: 0;
 }
+
+.submit-button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: var(--marka-color);
+}
+
 /* transform (i wanna die) */
 
 .active {
