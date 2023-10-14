@@ -427,6 +427,11 @@ a {
     background-color: transparent;
     padding: 16px;
     gap: 24px;
+    width: 264px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }   
 
 .input-footer::placeholder {
@@ -477,6 +482,8 @@ a {
 .form-footer {
     display: flex;
 }
+
+
 
 /* main-portfolio */
 
@@ -914,10 +921,12 @@ a {
     flex-direction: column;
     display: block;
     margin-bottom: 4px;
+    line-height: 1.17;
 }
 
 .nameform-div {
     position: relative;
+    margin-bottom: 8px;
 }
 
 .accept {
