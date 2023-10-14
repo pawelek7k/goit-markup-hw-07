@@ -414,9 +414,6 @@ a {
     max-width: 264px;
 }
 
-.subscribe-footer {
-    gap: 24px;
-}
 
 .input-footer {
     height: 40px;
@@ -642,8 +639,7 @@ a {
 }
 
 .div-icons {
-    margin-right: 120px;
-    gap: 120px;
+    margin-right: auto;
     align-items: baseline;
 }
 
