@@ -945,7 +945,7 @@ a {
     line-height: 1.17;
 }
 
-.nameform-div {
+.div-form {
     position: relative;
     margin-bottom: 8px;
 }
@@ -986,6 +986,10 @@ a {
 
 .name-form {
     margin-bottom: 8px;
+}
+
+.div-comment {
+    margin-bottom: 16px;
 }
 
 .div-form-radio {
