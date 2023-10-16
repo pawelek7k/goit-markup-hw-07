@@ -1016,7 +1016,7 @@ a {
     fill: #F4F4FD;
 }
 
-.inputradio :checked+.labelradio.span-modal {
+.inputradio:checked+.labelradio.span-modal {
     background-color: var(--marka-color);
     border: none;
     fill: var(--rectangle);
