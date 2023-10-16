@@ -465,7 +465,6 @@ a {
     line-height: 24px;
     letter-spacing: 0.64px;
     min-width: 165px;
-    margin-left: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -482,6 +481,7 @@ a {
 
 .form-footer {
     display: flex;
+    gap: 24px;
 }
 
 
@@ -1016,13 +1016,13 @@ a {
     fill: #F4F4FD;
 }
 
-.inputradio:checked+.labelradio.span-modal {
+.inputradio:checked + .labelradio .span-modal {
     background-color: var(--marka-color);
     border: none;
     fill: var(--rectangle);
 }
 .privacypolicy-a {
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 /* transform (i wanna die) */
 
