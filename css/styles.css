@@ -880,6 +880,7 @@ a {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: black;
 }
 
 .textarea-modal:focus {
@@ -994,7 +995,6 @@ a {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--border-customers);
-
 }
 
 .span-modal {
@@ -1007,7 +1007,7 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+    margin-right: 8px;
 }
 
 #user-privacy:checked + .span-modal {
@@ -1023,6 +1023,7 @@ a {
 }
 .privacypolicy-a {
     color: #4d5ae5;
+    margin-left: 4px;
 }
 /* transform (i wanna die) */
 
