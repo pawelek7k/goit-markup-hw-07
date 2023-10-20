@@ -883,8 +883,11 @@ a {
 
 .textarea-modal::placeholder {
     color: rgba(46, 47, 66, 0.4);
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
-
 
 
 .textarea-modal:focus {
