@@ -1,1 +1,1 @@
-https://pawelek7k.github.io/goit-markup-hw-06/
+https://pawelek7k.github.io/goit-markup-hw-07/
