@@ -1,0 +1,288 @@
+/* MENU */
+
+.close-icon-mobile-menu {
+    display: none;
+}
+
+.open-mobile-menu {
+    display: none;
+}
+
+.icons-mobile {
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
+}
+
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+}
+
+.mobile-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mobile-menu .link {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+}
+
+.mobile-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mobile-menu .link {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-a {
+    color: var(--marka-color);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+/* ========================= */
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (max-width: 480px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+/*
+.menu-container {
+    display: block;
+}*/
+
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.selection-one {
+    background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image-res@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 120px 0;
+}
+
+.selection-two {
+    display: flex;
+}
+
+.two-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-two-list {
+    width: 100%;
+}
+
+.rectangle {
+    display: none;
+}
+
+/*
+.heading-three-selection-two {
+    display: flex;
+    justify-content: center;
+}*/
+
+.selection-three {
+    display: none;
+}
+
+.selection-four {
+    display: flex;
+}
+
+.four-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-list {
+    width: 264px;
+}
+
+.selection-five {
+    display: flex;
+}
+
+.container-five {
+    padding: 120px 0 0 24px;
+}
+
+.customers-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.customers-li {
+    flex: 0 0 calc(50% - 20px);
+    margin-bottom: 72px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.svg-customers {
+    width: 100%;
+}
+
+.footer-p {
+    display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+}
+
+.footer-div {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 72px auto;
+}
+
+.div-icons {
+    margin: 0 auto 72px auto;
+    align-items: center;
+        justify-content: center;
+}
+
+.subscribe-footer {
+    margin: 0 auto 72px auto;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading-icons {
+    text-align: center;
+}
+
+.logo-mobile-footer {
+    display: block;
+    text-align: center;
+    margin-right: 0px;
+}
+
+}
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (max-width: 768px) {
+.selection-three {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.nav .contacts {
+    display: none;
+}
+
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+}
+
+.subscribe-footer {
+    display: block;
+}
+}
+
+/* ================================================= NOT DESKTOP 👇 ========================================= */
+@media screen and (max-width: 1157px) {
+    
+}
+
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+    /* co jest potrzebne dla desktopu */
+}
