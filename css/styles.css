@@ -1,5 +1,7 @@
 /* general */
 
+@import url(./responsive.css);
+
 :root {
     --brand-color: #434455;
     --color-text: #2e2f42;
@@ -28,8 +30,13 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-    align-items: center;
     padding: 0 15px;
+    min-width: 320px;
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* global shit */
@@ -634,7 +641,6 @@ a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: var(--white);
     margin-bottom: 16px;
 }
@@ -737,7 +743,6 @@ a {
     background: var(--rectangle, #F4F4FD);
     padding: 24px 100px 24px 100px;
     margin-bottom: 8px;
-    display: flex;
     align-items: center;
 }
 
@@ -777,6 +782,12 @@ a {
 
 .svg-customers {
     fill: currentColor;
+}
+
+.icons-mobile {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 /*MODAL*/
