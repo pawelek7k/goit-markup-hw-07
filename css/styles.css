@@ -252,7 +252,7 @@ a {
 }
 
 .li-two-list {
-    width: calc((100% - 72px) / 4);
+    width: 100%;
 }
 
 .heading-three-selection-two {
@@ -391,6 +391,7 @@ a {
 
 .footer-div {
     margin-right: 120px;
+    padding: 0;
 }
 
 .container-footer {
