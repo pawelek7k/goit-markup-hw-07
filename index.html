@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework-3</title>
+    <title>Homework-7</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,21 +16,35 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <header class="header">
         <div class="container container-header">
+            <button class="menu-toggle js-open-menu open-mobile-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22">
+                    <g clip-path="url(#clip0_297053_2156)">
+                        <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_297053_2156">
+                            <rect width="32" height="22"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </button>
             <nav class="nav">
-                <a class="logo link" href="/index.html">Web<span class="studio-logo">Studio</span></a>
-                <ul class="nav-list list">
+                <a class="logo link logo-header" href="/index.html">Web<span class="studio-logo">Studio</span></a>
+                <ul class="nav-list list menu-header">
                     <li class="nav-li"><a class="menu link animation-header active" href="./index.html">Studio</a></li>
                     <li class="nav-li"><a class="menu link animation-header" href="./portfolio.html">Portfolio</a></li>
                     <li class="nav-li"><a class="menu link animation-header" href="">Contacts</a></li>
                 </ul>
             </nav>
             <address class="contacts">
-                <ul class="address-list list">
+                <ul class="address-list list menu-header">
                     <li class="nav-li"><a class="address link animation-header"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="nav-li"><a class="address link animation-header" href="tel:+110001111111">+11 (000)
@@ -114,7 +128,9 @@
                 <h2 class="heading-three">Our Team</h2>
                 <ul class="list four-list">
                     <li class="name-list">
-                        <img src="./images/markguerrero_img.jpg" alt="Man with beard" width="264" height="260" />
+                        <img src="./images/markguerrero_img.jpg" alt="Man with beard"
+                        width="264" 
+                        height="260"/>
                         <div class="name-div">
                             <h3 class="heading-name">Mark Guerrero</h3>
                             <p class="p-selection-four">Product Designer</p>
@@ -312,7 +328,7 @@
     </main>
     <footer class="footer">
         <div class="container container-footer">
-            <div class="footer-div"><a class="logo link logo-footer" href="#">Web<span
+            <div class="footer-div"><a class="logo link logo-footer logo-mobile-footer" href="#">Web<span
                         class="studio-logoo">Studio</span></a>
                 <p class="footer-p">Increase the flow of customers and
                     sales for your business with digital
@@ -405,7 +421,58 @@
             </form>
         </div>
     </div>
+    <div class="menu-container js-menu-container is-open" id="mobile-menu">
+        <button class="menu-toggle js-close-menu" type="menu">
+            <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu">
+            <li><a href="./index.html" class="link mobile-a">Studio</a></li>
+            <li><a href="./portfolio.html" class="link mobile-a">Portfolio</a></li>
+            <li><a href="" class="link mobile-a">Contacts</a></li>
+        </ul>
+        <ul class="mobile-menu">
+            <li>
+                <a href="tel:+110001111111" class="contact link mobile-a">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+                <a href="mailto:info@devstudio.com" class="contact link mobile-a">info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="list icons-mobile">
+            <li class="social-svg">
+                <a class="a-icons" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use class="social" href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-svg">
+                <a class="a-icons" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use class="social" href="./images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-svg">
+                <a class="a-icons" href="">
+                    <svg class="icon" width="24" height="24">
+                        <use class="social" href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-svg">
+                <a class="a-icons" href="">
+                    <svg class="icon close-icon-mobile-menu" width="24" height="24">
+                        <use class="social" href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu-workshop.js"></script>
 </body>
 
 </html>
