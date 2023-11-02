@@ -1243,6 +1243,14 @@ a {
   background-color: #31d0aa;
 }
 
+.icon-menumobile {
+  display:block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 0;
+  stroke: currentColor;
+}
+
 .button-close {
   width: 24px;
   height: 24px;
@@ -1684,6 +1692,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.32px;
+max-width: 356px;
   }
   .two-list {
     display: flex;
@@ -1724,6 +1733,7 @@ letter-spacing: 0.32px;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    width: 768px;
   }
 
   .container-five {
