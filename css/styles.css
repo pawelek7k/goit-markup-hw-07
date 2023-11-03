@@ -1147,12 +1147,6 @@ a {
   display: none;
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-
 .mobile-menu {
   padding: 0;
   margin: 0;
@@ -1312,14 +1306,22 @@ a {
     transition: transform 250ms ease-in-out;
   }
 
+  .icon-menumobile {
+    display: block;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0;
+    stroke: currentColor;
+  }
+
   .menu-container.is-open {
     transform: translateX(0);
   }
 
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 24px;
+    right: 24px;
   }
 
   .mobile-menu .link {
