@@ -188,7 +188,11 @@ a {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .selection-one {
-    background-image: url('../images/background2x.jpg');
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background2x.jpg);
   }
 }
 
@@ -1362,6 +1366,18 @@ a {
     padding: 120px 0;
   }
 
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .selection-one {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background2x.jpg);
+  }
+}
+
   .selection-two {
     display: flex;
   }
@@ -1677,6 +1693,18 @@ a {
     display: flex;
     padding: 120px 0;
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .selection-one {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background2x.jpg);
+  }
+}
 
   .selection-two {
     display: flex;
