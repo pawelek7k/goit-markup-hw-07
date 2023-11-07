@@ -1345,7 +1345,7 @@ a {
   .container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 480px;
+    max-width: 768px;
   }
 
   .animation-header {
@@ -1471,10 +1471,6 @@ a {
     margin: 0 auto 72px auto;
     align-items: center;
     justify-content: center;
-  }
-
-  .subscribe-footer {
-    margin: 0 auto 72px auto;
   }
 
   .form-footer {
