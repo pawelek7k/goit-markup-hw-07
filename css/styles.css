@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   min-width: 320px;
@@ -177,7 +177,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
   max-width: 1440px;
   justify-content: center;
   align-items: center;
@@ -1305,6 +1304,14 @@ a {
     right: 16px;
   }
 
+  .selection-one {
+    padding: 0px;
+  }
+
+  .heading-one {
+    font-size: 36px;
+  }
+
   .menu-container {
     display: block;
   }
@@ -1313,8 +1320,8 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 999;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
@@ -1345,7 +1352,7 @@ a {
   .container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 768px;
+    max-width: 480px;
   }
 
   .animation-header {
@@ -1389,9 +1396,11 @@ a {
 
   .li-two-list {
     display: flex;
-    width: 100%;
+    width: 440px;
     flex-direction: column;
     align-items: center;
+    margin-right: 16px;
+    margin-left: 16px;
     margin-bottom: 72px;
   }
 
@@ -1471,6 +1480,10 @@ a {
     margin: 0 auto 72px auto;
     align-items: center;
     justify-content: center;
+  }
+
+  .subscribe-footer {
+    margin: 0 auto 72px auto;
   }
 
   .form-footer {
