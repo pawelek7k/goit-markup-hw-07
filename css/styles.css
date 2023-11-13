@@ -264,10 +264,6 @@ a {
   gap: 24px;
 }
 
-.li-two-list {
-  width: calc((100% - 72px) / 4);
-}
-
 .heading-three-selection-two {
   font-weight: 500;
   font-size: 20px;
